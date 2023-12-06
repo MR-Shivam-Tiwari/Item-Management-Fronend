@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API_URL = "http://localhost:3001/api/items"; // Replace with your actual backend URL
+const API_URL = "https://itemmanage-backend.onrender.com/api/items"; // Replace with your actual backend URL
 
 const App = () => {
   const [items, setItems] = useState([]);
